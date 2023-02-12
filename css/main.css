@@ -138,7 +138,7 @@ body {
   }
   #site-header {
     background-repeat: no-repeat;
-    background-image: url("../../img/hero-mobile-bg-img.svg");
+    background-image: url("../img/hero-mobile-bg-img.svg");
     background-size: cover;
   }
 }
@@ -241,7 +241,7 @@ span {
 
 @media screen and (max-width: 885px) {
   body {
-    background-image: url("../../img/hero-tablet-img.png");
+    background-image: url("../img/hero-tablet-img.png");
     background-position: center top;
     background-size: cover;
   }
@@ -314,7 +314,7 @@ span {
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 670px;
-  background-image: url("../../img/work-bg-img.svg");
+  background-image: url("../img/work-bg-img.svg");
 }
 
 .work__container {
@@ -409,7 +409,7 @@ span {
   }
   .work__block {
     background-repeat: no-repeat;
-    background-image: url("../../img/work-tablet-img.png");
+    background-image: url("../img/work-tablet-img.png");
     background-position: center top;
     background-size: contain;
   }
@@ -522,7 +522,7 @@ span {
 }
 #simple {
   background-repeat: no-repeat;
-  background-image: url("../../img/simple-bg-img.svg");
+  background-image: url("../img/simple-bg-img.svg");
   background-position: right top;
 }
 
@@ -648,7 +648,7 @@ span {
   height: 106px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url("../../img/list-img1.svg");
+  background-image: url("../img/list-img1.svg");
   background-position: center;
 }
 
@@ -658,7 +658,7 @@ span {
   height: 106px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url("../../img/list-img2.svg");
+  background-image: url("../img/list-img2.svg");
   background-position: center;
 }
 
@@ -668,7 +668,7 @@ span {
   height: 106px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url("../../img/list-img3.svg");
+  background-image: url("../img/list-img3.svg");
   background-position: center;
 }
 
@@ -814,7 +814,7 @@ span {
   #site-footer {
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-image: url("../../img/footer-mobile-img.png");
+    background-image: url("../img/footer-mobile-img.png");
     background-size: cover;
   }
   .block__container {
