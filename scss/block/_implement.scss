@@ -1,0 +1,64 @@
+.implement__container{
+    @include flex;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+.implement__img{
+    max-width: 445px;
+}
+.implement__title{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: $title-color;
+    max-width: 445px;
+    padding-bottom: 24px;
+}
+.implement__text{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: $text-color;
+    max-width: 445px;
+}
+@media screen and (max-width:980px) {
+    .implement__container{
+        @include column;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .implement__img{
+        max-width: 391.73px;
+        padding-bottom: 48px;
+    }
+    .implement__title{
+        max-width: 573px;
+        text-align: center;
+    }
+    .implement__text{
+        max-width: 573px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:615px) {
+    .implement__container{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .implement__img{
+        max-width: 328px;
+    }
+    
+}
+@media screen and (max-width:455px) {
+    .implement__title{
+        max-width: 327px;
+    }
+    .implement__text{
+        max-width: 328px;
+    }
+}

@@ -1,0 +1,96 @@
+#work{
+    background-color: #1B262F;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 670px;
+    background-image: url('../../img/work-bg-img.svg');
+}
+.work__container{
+    @include flex;
+}
+.work__content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.work__title{
+    max-width: 445px;
+    padding-bottom: 24px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FBFCFE;
+}
+.work__text{
+    max-width: 445px;
+    padding-bottom: 32px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FBFCFE;
+    opacity: 0.7;
+}
+.work__link{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FBFCFE;
+    padding: 16px 32px 14px 32px;
+    border: 1px solid #FBFCFE;
+    border-radius: 24px;
+}
+.work__link:hover{
+    color: #1B262F;
+    background-color: #fff;
+}
+.work__icons{
+    align-items: center;
+    padding-top: 185px;
+    padding-bottom: 184px; 
+}
+.work__list{
+    @include flex;
+    flex-wrap: wrap;
+    max-width: 536px;
+}
+.work__item{
+    max-width: 145px;
+    margin-bottom: 62px;
+}
+@media screen and (max-width:1030px) {
+    #work{
+        background-image: none;
+    }
+    .work__block{
+        background-repeat: no-repeat;
+        background-image: url('../../img/work-tablet-img.png');
+        background-position: center top;
+        background-size: contain;
+    }
+    .work__container{
+        flex-direction: column-reverse;
+    }
+    .work__icons{
+        align-items: center; 
+        padding-bottom: 72px; 
+        max-width: 536px;
+    }
+    .work__content{
+        padding-top: 64px;
+        padding-bottom: 88px;
+        text-align: center;
+    }
+    .work__title{
+        max-width: 457px;
+    }
+    .work__text{
+        max-width: 456px;
+        text-align: center;
+    }
+}

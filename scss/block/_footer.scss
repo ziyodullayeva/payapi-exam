@@ -1,0 +1,61 @@
+#sita-footer{
+    background-color: $footer-color;
+}
+.footer__container{
+    @include flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer__logo{
+    @include flexJ;
+}
+.footer__list{
+    display: flex;
+    padding-left: 64px;
+}
+.footer__item + .footer__item{
+    margin-left: 40px;
+}
+.footer__link{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FBFCFE;
+    opacity: 0.7;
+
+    &:hover{
+        opacity: 1;
+    }
+}
+.footer__icon_link + .footer__icon_link{
+    margin-left: 24px;
+}
+.footer__icon_link:hover{
+    background-color: $btn-hover-color;
+}
+@media screen and (max-width:650px) {
+    .footer__container{
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 55px;
+        text-align: center;
+    }
+    .footer__logo{
+       flex-direction: column;
+        margin-bottom: 43px;
+    }
+    .footer__list{
+        flex-direction: column;
+        padding-left: 0px;
+        padding-top: 43px;
+    }
+    .footer__item + .footer__item{
+        margin-left: 0px;
+    }
+    .footer__item{
+        padding-bottom: 31px;
+    }
+   
+}
